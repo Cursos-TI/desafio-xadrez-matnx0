@@ -1,6 +1,6 @@
 #include <stdio.h> // Inclui a biblioteca padrão de entrada e saída.
 
-/*----------------------- Lógica Super Trunfo - Nível Novato -----------------------
+/*----------------------- Desafio Xadrez - Nível Novato -----------------------
 Objetivo: Cadastro e Comparação de Cartas*/
 
 
