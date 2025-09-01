@@ -1,4 +1,4 @@
-#include <stdio.h> // Inclui a biblioteca padrão de entrada e saída.
+#include <stdio.h>
 
 /*----------------------- Desafio Xadrez - Nível Novato -----------------------
 Objetivo: Testar e determinar os limites de utilização do código dentro do jogo utilizando estruturas de repetição e funções avançadas.*/
@@ -7,7 +7,7 @@ Objetivo: Testar e determinar os limites de utilização do código dentro do jo
 int main() {
     // --- 1. Entrada de Dados com Constantes ---
     // Declara constantes para definir a quantidade de casas que cada peca se move.
-    // Usar 'const' e uma boa pratica para valores que nao mudam, tornando o codigo mais facil de ler.
+    // Usar 'const' e uma boa pratica para valores que nao mudam, tornando o código mais facil de ler.
     const int MOVIMENTOS_BISPO = 5;
     const int MOVIMENTOS_TORRE = 5;
     const int MOVIMENTOS_RAINHA = 8;
@@ -26,7 +26,7 @@ int main() {
 
     // --- 3. Movimentação da Rainha: 8 casas para a esquerda (usando 'while') ---
     // O loop 'while' é usado para repetir um bloco de código enquanto uma condição for verdadeira.
-    // O controle do contador (counter) e feito manualmente dentro do loop.
+    // O controle do contador (counter) é feito manualmente dentro do loop.
     printf("--- Movimentação da Rainha ---\n");
     int contador_rainha = 0; // Inicia um contador em 0.
     while (contador_rainha < MOVIMENTOS_RAINHA) {
@@ -42,15 +42,16 @@ int main() {
     // antes de checar a condição de repetição. É uma boa opção para demonstrar as estruturas.
     printf("--- Movimentação do Bispo ---\n");
     int contador_bispo = 0; // Inicia um contador em 0.
-    if (MOVIMENTOS_BISPO > 0) { // Garante que o loop so comece se houver movimentos.
+    if (MOVIMENTOS_BISPO > 0) { // Garante que o loop só comece se houver movimentos.
         do {
-            // O Bispo se move na diagonal. O requisito pedia para usar uma combinação
-            // de direções básicas para isso.
+
+            // O Bispo se move na diagonal. 
             printf("Cima\n");
             printf("Direita\n");
             contador_bispo++; // Incrementa o contador.
         } while (contador_bispo < MOVIMENTOS_BISPO);
     }
     
+    // Retorna 0 para indicar que o programa foi executado com sucesso.
     return 0;
 }
