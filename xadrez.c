@@ -1,7 +1,7 @@
 #include <stdio.h> // Inclui a biblioteca padrão de entrada e saída.
 
 /*----------------------- Desafio Xadrez - Nível Novato -----------------------
-Objetivo: Cadastro e Comparação de Cartas*/
+Objetivo: Testar e determinar os limites de utilização do código dentro do jogo utilizando estruturas de repetição e funções avançadas.*/
 
 
 int main() {
